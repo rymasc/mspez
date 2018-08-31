@@ -19,9 +19,9 @@ sudo tar xvjf mspgcc.tar.bz2 -C /home/$USER/ti/msp430-gcc --strip-components 1
 sudo unzip support-files.zip 
 sudo cp -a msp430-gcc-support-files/. /home/$USER/ti/msp430-gcc
 
-rm -rf support-files.zip
-rm -rf msp430-gcc-support-files
-rm mspgcc.tar.bz2
+sudo rm -rf support-files.zip
+sudo rm -rf msp430-gcc-support-files
+sudo rm mspgcc.tar.bz2
 
 
 
