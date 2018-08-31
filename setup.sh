@@ -15,9 +15,9 @@
 python scrape.py
 
 mkdir -p /home/$USER/ti/msp430-gcc 
-tar xvjf mspgcc.tar.bz2 -C /home/$USER/ti/msp430-gcc --strip-components 1
-unzip support-files.zip 
-cp -a msp430-gcc-support-files/. /home/$USER/ti/msp430-gcc
+sudo tar xvjf mspgcc.tar.bz2 -C /home/$USER/ti/msp430-gcc --strip-components 1
+sudo unzip support-files.zip 
+sudo cp -a msp430-gcc-support-files/. /home/$USER/ti/msp430-gcc
 
 rm -rf support-files.zip
 rm -rf msp430-gcc-support-files
